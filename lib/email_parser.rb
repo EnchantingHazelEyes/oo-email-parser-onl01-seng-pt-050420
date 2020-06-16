@@ -8,7 +8,9 @@ class EmailAddressParser# Build a class EmailParser that accepts a string of unf
   end 
   
   def parse
-     parser << email_addresses.split(".com")
+     new_emails.each do |email_addresses|
+     parser << new_emails
+   end 
   end
   
 end 
