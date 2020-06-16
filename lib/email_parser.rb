@@ -7,7 +7,7 @@ class EmailAddressParser# Build a class EmailParser that accepts a string of unf
     @parser = []
   end 
   
-  def parse
+  def parse(new_emails)
      new_emails.each do |email_addresses|
      parser << new_emails
    end 
