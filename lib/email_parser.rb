@@ -4,7 +4,7 @@ class EmailAddressParser# Build a class EmailParser that accepts a string of unf
 
   def initialize(email_addresses)
     @email_addresses = email_addresses
-    #@parser = []
+    @parser = []
   end 
   
   def parse
