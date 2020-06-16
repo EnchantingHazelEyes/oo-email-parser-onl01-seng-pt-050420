@@ -11,7 +11,7 @@ class EmailAddressParser# Build a class EmailParser that accepts a string of unf
      #email_addresses.each do |email_addresses|
      parser << email_addresses
      parser.uniq
-   end 
+   
   end
   
 end 
