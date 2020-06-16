@@ -11,7 +11,7 @@ class EmailAddressParser# Build a class EmailParser that accepts a string of unf
      email_addresses.split.collect do |address|
        address.split(",")
      end
-     parser.uniq
+     parser.flatten.uniq
   end
   
 end 
