@@ -8,9 +8,7 @@ class EmailAddressParser# Build a class EmailParser that accepts a string of unf
   end 
   
   def parse
-    email_addresses.each do (parse << email_addresses) 
-  end 
-   # parser << email_addresses.split(",")
+     parser << email_addresses#.split(",")
   end
   
 end 
