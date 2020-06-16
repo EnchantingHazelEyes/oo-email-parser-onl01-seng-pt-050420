@@ -8,7 +8,7 @@ class EmailParser# Build a class EmailParser that accepts a string of unformatte
   end 
   
   def parse
-     email_addresses.split.collect do (|address|
+     email_addresses.split.collect do |address|
      address.split(",")
    end
     
