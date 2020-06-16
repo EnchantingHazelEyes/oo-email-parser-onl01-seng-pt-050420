@@ -9,9 +9,9 @@ class EmailAddressParser# Build a class EmailParser that accepts a string of unf
   
   def parse
      email_addresses.split.collect do |address|
-       address.split(",")
-     end
+     address.split(",")
      parser.flatten.uniq
+   end 
   end
   
 end 
